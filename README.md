@@ -11,9 +11,14 @@ Bettina Warburg's video on TED. "[How the blockchain will radically transorm the
 
 ## related article
 
+* Blockchain
+Ameer Rosic's article "[What is Blockchain Technology? A Step-by-Step Guide For Begineers](https://blockgeeks.com/guides/what-is-blockchain-technology/)"
+
 * Decentralized Internet
 Electronic Beats's article
-[A Bignieer's Guide To The Decentralized Internet](https://www.electronicbeats.net/a-beginners-guide-to-the-decentralized-internet/)
+"[A Bignieer's Guide To The Decentralized Internet](https://www.electronicbeats.net/a-beginners-guide-to-the-decentralized-internet/)"
+
+
 
 
 ## blockchain applications
