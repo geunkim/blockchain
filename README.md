@@ -18,18 +18,24 @@ Ameer Rosic's article "[What is Blockchain Technology? A Step-by-Step Guide For 
 Electronic Beats's article
 "[A Bignieer's Guide To The Decentralized Internet](https://www.electronicbeats.net/a-beginners-guide-to-the-decentralized-internet/)"
 
-
-
-
 ## blockchain applications
 
 * Daniel Palmer's article: "[7 Cool Decentralized Apps Being Built on Ethereum](https://www.coindesk.com/7-cool-decentralized-apps-built-ethereum)"
 
-### DID
+## DID(Decentralized Identity)
+
 * more exhausive list of companies using blockchain technology for identify management and authentication
 Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Management and Authentiction]
 (https://gomedici.com/22-companies-leveraging-blockchain-for-identity-management-and-authentication/)"
 
-* article about DiD: "[Digital identity tremds - 5 forces that are shaping 2020](https://www.gemalto.com/govt/identity/digital-identity-services/trends)"
+* article about DiD: "[Digital identity trends - 5 forces that are shaping 2020](https://www.gemalto.com/govt/identity/digital-identity-services/trends)"
+
+## Hyperledger 
+
+* [Hyperledger - Open Source Blockchain Technologies](https://www.hyperledger.org)
+
+## Blockchain info sites
+* Blockchain explorer: [The Pit](https://blockchain.com/explorer)
+
 
 # results of blockchain research 
