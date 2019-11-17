@@ -36,6 +36,7 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 
 ## Blockchain info sites
 * Blockchain explorer: [The Pit](https://blockchain.com/explorer)
+* Coincap: [Top Cryptocurrencies based on Github activty](https://coincodecap.com)
 
 
 # results of blockchain research 
