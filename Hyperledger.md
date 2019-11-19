@@ -84,7 +84,9 @@ chaincoid, in JavaScript
 * [Hyberledger Fabric Official Tutorials](https://hyperledger-fabric.readthedocs.io/en/latest/tutorials.html)
   * [Key Concepts](https://hyperledger-fabric.readthedocs.io/en/latest/key_concepts.html)
   * [Building Your First Network(BYFN)](https://hyperledger-fabric.readthedocs.io/en/latest/build_network.html)
-  * [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html) 
+  * [Writing Your First Application](https://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html)
+  * [Key_concepts(한글문서)](https://hihellloitland.tistory.com/45?category=7662210)
+  
   
 
 
