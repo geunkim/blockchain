@@ -12,7 +12,6 @@
 ~$peer node      [option] [flags]   // 피어 노드와 관련한 명령어
 ~$peer version   [option] [flags]   // 피어의 버전 등의 정보를 디스플레이하는 명령어 
 ```
-f
 
 ### ```peer channel``` 관련 명령어
 
