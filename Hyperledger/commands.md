@@ -56,13 +56,13 @@
 ```newest``` 대신에 블록 번호(###)를 option으로 명시하면 명시한 번호의 블록을 로컬 파일 ```mychannel_###.block```
 로 저장한다.
 
-### ```getinfo``` option 예제 
+##### ```getinfo``` option 예제 
 채널에 대한 정보를 취득할 때 사용한다. 채널의 블록체인에 가장 최근에 추가된 블록에 대한 암호화된 해시값을 확인할 수 있다.
 ```shell
 ~$peer channel getinfo -c mychannel
 ```
 
-### ```update``` option 예제 
+##### ```update``` option 예제 
 ```./updatechannel.tx``` 파일에 정의된 configuration transaction을 사용하여 채널의 구성을 업데이트한다. 다음 명령어는
 ```orderer.example.com:7050```를 통해 ```./updaechannel.tx```파일에 정의된 configuation transaction을 사용하여 
 ```mychanel```을 구성을 업데이트한다. 채널 구성의 복사본을 채널 내의 모든 피어에 업데이트하기 위해서 
@@ -72,14 +72,14 @@ configuration transaction을 orderer에 전송한다.
 ~$peer channel update -c mychannel -f ./updatechannel.tx -o orderer.example.com:7050
 ```
 
-### ```list``` option 예제 
+##### ```list``` option 예제 
 피어가 조인한 채널들의 목록을 얻을 수 있다. 
 
 ```shell
 ~$peer channel list
 ```
 
-### ```signconfigtx``` option 예제 
+##### ```signconfigtx``` option 예제 
 ```./updatechannel.tx``` 파일 내에 정의된 ```channel update``` 트랜잭션을 사인한다. ```./updatechannel.tx``` 파일의
 크기는 configuration transaction에 성공적으로 사인 후에 변경된다. 
 
