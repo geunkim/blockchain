@@ -7,7 +7,7 @@ A curated list of papers ordered by number of citations. [Coinresear.ch](https:/
 
 ## related video
 
-Bettina Warburg's video on TED. "[How the blockchain will radically transorm the economy](https://www.ted.com/talks/bettina_warburg_how_the_blockchain_will_radically_transform_the_economy)"]
+Bettina Warburg's video on TED. "[How the blockchain will radically transform the economy](https://www.ted.com/talks/bettina_warburg_how_the_blockchain_will_radically_transform_the_economy)"]
 
 ## related article
 
@@ -29,6 +29,10 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 (https://gomedici.com/22-companies-leveraging-blockchain-for-identity-management-and-authentication/)"
 
 * article about DiD: "[Digital identity trends - 5 forces that are shaping 2020](https://www.gemalto.com/govt/identity/digital-identity-services/trends)"
+* [W3C DID Working Group](https://www.w3.org/2019/did-wg/)
+   - [DID Identifer v1.0](https://www.w3.org/TR/did-core/)
+   - [Use Cases and Requirements for Decentralized Identifiers](https://w3.org/TR/did-use-cases/)"
+
 
 ## Hyperledger 
 
@@ -39,4 +43,4 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 * Coincap: [Top Cryptocurrencies based on Github activty](https://coincodecap.com)
 
 
-# results of blockchain research 
+# Results of blockchain research 
