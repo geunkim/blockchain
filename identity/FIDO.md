@@ -3,12 +3,10 @@
 ## FIDO 란? 
 
 비밀번호의 문제점을 해결하기 위해 FIDO Alliance에 의해 제안된 사용자 인증 프레임워크이다.
-인증 기법(authentication method)와 인증정보를 교환하는 인증 프로토콜(authentication protocol)을 분리하는 것이 핵심이다. 
+사용자 인증 기법(authentication method)와 인증정보를 교환하는 인증 프로토콜(authentication protocol)을 분리하는 것이 핵심이다. 
 FIDO 규격은 비밀번호없이 인증하기 위한 UAF(Universal Authentication Framework) 프로토콜과 비밀번호를 보완하여 
 인증을 하기 위한 U2F(Universal 2nd Factor) 프로토콜로 구성된다. 
 지문, 홍체, 음성 등 생체 정보를 활용하여 사용자 인증에 적용하기 위해 주로 사용한다.
-
-
 
 * UAF(Passwordless Experience):
 
@@ -16,7 +14,7 @@ FIDO 규격은 비밀번호없이 인증하기 위한 UAF(Universal Authenticati
   그 결과 값을 전송하여 인증하는 방식으로 스마토 폰 등 개인 단말기를 통한 인증 체계에 활용되는 방식이다.
 
 * U2F(Second Factor Experience):
-  - 기존의 패스워드를 사용하는 온라인 서비스의 두 번째 인증요소로 강한 인증을 사용자 로그인 시 추가할 수 있는 기술
+  - 기존의 패스워드를 사용하는 온라인 서비스의 두 번째 인증요소로 강한 인증을 사용자 로그인 시 추가할 수 있는 기술이다.
   
 ### 시스템 구성 및 주요 기능
 #### 구성요소
@@ -54,6 +52,7 @@ FIDO 얼라이언스는 FIDO 1.0 표준을 확장한 FIDO2.0 표준이 이루어
  
 
  * FIDO 2.0
+  + 2018년 3월에 표준화가 이루어졌다.
   + 모바일을 포함한 PC, IoT 기기 등 다양한 환경에서 사용할 수 있는 표준 
   + FIDO 모듈을 플랫폼화하고 플랫폼에 포함되어 있는 내부 인증자 또는 외부 인증장치의 외부 인증자를
    이용하여 인증가능
@@ -99,4 +98,7 @@ FIDO 얼라이언스는 FIDO 1.0 표준을 확장한 FIDO2.0 표준이 이루어
 * FIDO 2.0 프로토콜 흐롬 분석
 * Web API 표준 
 
- 
+## Reference
+
+* [도리의 디지털라이프](http://blog.skby.net/fido-fast-identity-online/)
+
