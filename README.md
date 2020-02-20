@@ -33,6 +33,7 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
    - [DID Identifer v1.0](https://www.w3.org/TR/did-core/)
    - [Use Cases and Requirements for Decentralized Identifiers](https://w3.org/TR/did-use-cases/)"
 
+## Self Sovereign identity (SSI)
 
 ## Hyperledger 
 
