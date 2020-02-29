@@ -11,7 +11,7 @@ Bettina Warburg's video on TED. "[How the blockchain will radically transform th
 
 ## related article
 
-* [Research issues](https://github.com/geunkim/blockchain/tree/master/ResearchIssues)
+* [Research issues](https://github.com/geunkim/blockchain/tree/master/ResearchIssues/README.md)
 
 * Blockchain
 Ameer Rosic's article "[What is Blockchain Technology? A Step-by-Step Guide For Begineers](https://blockgeeks.com/guides/what-is-blockchain-technology/)"
