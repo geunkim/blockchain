@@ -45,7 +45,8 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 * Blockchain explorer: [The Pit](https://blockchain.com/explorer)
 * Coincap: [Top Cryptocurrencies based on Github activty](https://coincodecap.com)
 * [EU Blockchain Observatory and Forum](https://www.eublockchainforum.eu/)
-   - Work Report - [Convergence of blockchain, AI and IoT Brussels, 28 March, 2019](https://www.eublockchainforum.eu/reports)
+   - [Convergence of blockchain, AI and IoT Brussels, 28 March, 2019](https://www.eublockchainforum.eu/reports)
+   - [Blockchain and Digital Identity](https://www.eublockchainforum.eu/reports)
 
 
 # Results of blockchain research 
