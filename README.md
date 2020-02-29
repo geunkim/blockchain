@@ -2,7 +2,7 @@
 
 ## related papers 
 
-A curated list of papers ordered by number of citations. [Coinresear.ch](https://www.coinresear.ch/papers)  
+* A curated list of papers ordered by number of citations. [Coinresear.ch](https://www.coinresear.ch/papers)  
 
 
 ## related video
@@ -10,6 +10,8 @@ A curated list of papers ordered by number of citations. [Coinresear.ch](https:/
 Bettina Warburg's video on TED. "[How the blockchain will radically transform the economy](https://www.ted.com/talks/bettina_warburg_how_the_blockchain_will_radically_transform_the_economy)"]
 
 ## related article
+
+* [Research issues](https://github.com/geunkim/blockchain/tree/master/ResearchIssues)
 
 * Blockchain
 Ameer Rosic's article "[What is Blockchain Technology? A Step-by-Step Guide For Begineers](https://blockgeeks.com/guides/what-is-blockchain-technology/)"
@@ -43,8 +45,7 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 * Blockchain explorer: [The Pit](https://blockchain.com/explorer)
 * Coincap: [Top Cryptocurrencies based on Github activty](https://coincodecap.com)
 * [EU Blockchain Observatory and Forum](https://www.eublockchainforum.eu/)
-   - Work Report - [Convergence of blockchain, AI and IoT Brussels, 28 March, 2019](https://www.eublockchainforum.eu/reports)   i888
-
+   - Work Report - [Convergence of blockchain, AI and IoT Brussels, 28 March, 2019](https://www.eublockchainforum.eu/reports)
 
 
 # Results of blockchain research 
