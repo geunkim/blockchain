@@ -19,7 +19,7 @@ This repository is for summarizing research issues related to the Blockchain.
 * DL13: **Trusted Identity: Identity Management**
 * DL14: Other Distributed Ledger Technologies
 
-EU Blockchain Forum에서 연구하고 있는 내용은 다음과 같다. 
+EU Blockchain Observatory and Forum에서 연구하고 있는 내용은 다음과 같다. 
 
 *
 
