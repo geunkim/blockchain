@@ -42,11 +42,14 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 * [Hyperledger - Open Source Blockchain Technologies](https://www.hyperledger.org)
 
 ## Blockchain info sites
+
 * Blockchain explorer: [The Pit](https://blockchain.com/explorer)
 * Coincap: [Top Cryptocurrencies based on Github activty](https://coincodecap.com)
 * [EU Blockchain Observatory and Forum](https://www.eublockchainforum.eu/)
    - [Convergence of blockchain, AI and IoT Brussels, 28 March, 2019](https://www.eublockchainforum.eu/reports)
-   - [Blockchain and Digital Identity](https://www.eublockchainforum.eu/reports)
+      + [Tokenization of physical assets and the impact of IoT and AI](https://www.eublockchainforum.eu/sites/default/files/research-paper/convergence_of_blockchain_ai_and_iot_academic_2.pdf)
+   - [Blockchain and Digital Identity](https://www.eublockchainforum.eu/reports/report_identity_v0.9.4.pdf)
+   - [Blockchain and GDPR](https://www.eublockchainforum.eu/reports/20181016_report_gdpr.pdf)
 
 
 # Results of blockchain research 
