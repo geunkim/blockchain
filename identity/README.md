@@ -4,7 +4,7 @@
 
 * Self-Sovereign Idnetiy
 
-* DID (Decentralized Identity)
+* DID (Decentralized Identifier)
 
 * FIDO (Fast IDentity Online)
 
