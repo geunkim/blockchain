@@ -34,6 +34,7 @@ DID 메소드를 규정하는데 사용하고 DID 메소드 규격은 메소드 
 DID는 DID 문서를 가리킨다. w3c는 DID 문서를 "DID 주체(subject)가 자신을 인증하고 DID와의 연관성을 입증하는데 사용할 수 있는 공개키 및 생체 인식과 같은
 메커니즘을 포함한 DID 주체를 설명하는 데이터 집합" 으로 정의한다. DID 문서는 주체를 설명하는 속성들 또는 주장(claim)들을 포함하기도 한다. 
 일반적으로 이 문서는 JSON-LD를 사용하여 표현된 그래프 기반 자료 구조이나 호환 가능한 다른 그래프 기반 데이터 형식을 사용하여 표할될 수 있다.   
+DID와 DID 문서는 탈중앙화된 신원의 기반이나 주체를 기술하는 첫 단계이다. 
 
 ## DID 방법 (DID method)
 
@@ -45,17 +46,22 @@ CRUD (Create, Read, Update and Deactive) 작업의 동작 방법을 정의해야
 DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관리시스템을 위해서도 개발될 수 있다. 모든 유형의 신원관리시스템은 중앙집중형, 연합형,
 탈중앙형 식별자 도메인 간 상호 운용성 브리지를 만들어서 DID 지원기능을 추가할 수 있다. 
 
-## 요점
+## 주요 컴포넌트
 
-DID와 DID 문서는 탈중앙화된 신원의 기반이나 주체를 기술하는 첫 단계이다. 
-
-
-
-
-
-
-
-* public DID vs private DID
+ * holder(보유자):
+ 
+ 
+ * issuer(발행자):
+ 
+ 
+ * Subject(주체)
+ 
+ 
+ * Verifier(검증자):
+ 
+ 
+ * Verifiable data registry(검증 데이터 저장소):
+   
 
 
 ## Related Terminologies (관련 용어)
@@ -75,32 +81,30 @@ DID와 DID 문서는 탈중앙화된 신원의 기반이나 주체를 기술하�
     + verifiable presentation의 형태에 오리지널 검증가능 자격증명데이터로 부터 합성이 되었으나 원 검증가능 자격증명데이터는
     포함하지 않는 데이터가 포함될 수 있다. (영-지식 증명) 
     
- * holder(보유자):
- 
- 
- * issuer(발행자):
- 
- 
- * verifier(검증자):
- 
- 
- * verifiable data registry(검증 데이터 저장소):
-   
+## 개인 정보 (Personal Information)
 
 
+
+
+## 주장 (Claims)
+
+
+
+* public DID vs private DID
 
 ## Ecosystem (생태계)
 
-
 ![image](https://miro.medium.com/max/2270/1*Cke4CG4fJlcpLNxgVsO_hw.png)
-
 
 
 ## Standards related to DID
 
 * W3C: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential) - W3C Recommendation 19 Nov. 2019.
-
+* W3 Draft CG Reprt: [A Primer for Decentralized Identifiers](https://w3c-ccg.github.io/did-primer/) (unofficial draft)
+* W3C Working Draft: [Decentralized Identitifers (DIDs) v1.0](https://w3c.github.io/did-core/)
+* W3C Recommendation: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential)
 
 ## References
 
-[Decentralized Identifiers: the easy guide](https://medium.com/metadium/decentralized-identifiers-the-easy-guide-fb96429e8b24)
+* [Decentralized Identifiers: the easy guide](https://medium.com/metadium/decentralized-identifiers-the-easy-guide-fb96429e8b24)
+* [Decentralized Identifiers: Personal Information and Claims, the easy guide](https://medium.com/metadium/decentralized-identifiers-personal-information-and-claims-the-easy-guide-ee58b5427dd2)
