@@ -17,8 +17,6 @@ W3C DID WG의 정의에 따르면 탈중앙형 식별자는 분산원장 기술(
 복수의 블록체인에서 동작할 수 있도록 DID를 적용하는 것이 논의되었다. DID에서는 URN의 이름 공간(namespace) 컴포넌트를 
 DID 메소드를 규정하는데 사용하고 DID 메소드 규격은 메소드 별 식별자(method-specific identifier)의 형식을 정의한다. 
 
-![image](uuid.png)
-
 
 W3에서 자원에 대한 식별자로 URN(Unified Resource Name)과 URL(Unified Resource Locator) 
 
