@@ -1,4 +1,4 @@
-# 탈중앙형 식별자 DID (Decentralized Identifier)
+# 탈중앙형 식별자 (DID: Decentralized Identifier)
 
 물리세계의 신원과 달리 디지털 신원은 인터넷에서 사람을 식별하기 위한 것으로 초기에는 ID/PW 기반이었다.
 
