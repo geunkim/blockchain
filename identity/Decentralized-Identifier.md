@@ -10,10 +10,15 @@
 이 시스템에는 개인, 기관, 사물과 같은 개별 대상(object)을 탈중앙 식별자(DID: Decentralized Identifier)로 식별되고 
 전자서명, 프라이버시가 보호된 생체정보 등과 같은 검증가능 자격증명 데이터로 인증된다. 
 
-## 디지털 신원 (Digital Identity)
+W3C DID WG의 정의에 따르면 탈중앙형 식별자는 분산원장 기술(distributed ledger technolology) 또는 다른 형태의 탈중앙형 네트워크에 등록되기 때문에 
+중앙의 등록기관이 필요 없는 글로벌하게 유일한 식별자(globally unique identifier)로 정의한다.
 
-W3C DID WG의 DID 정의에 따르면 DID는 분산원장 기술 또는 다른 형태의 탈중앙형 네트워크에 등록되어 권한을 가진 중앙화된 등록기관에 등록할 필요가 없는 
-글로벌한 식별자로 정의한다.
+중앙의 등록기관을 요구하지 않는 글로벌 식별자에 대한 요구가 처음이 아니라 2016 년에 W3C의 URN(Unified Resource Name) 규격의 기본 패턴을 따라 
+복수의 블록체인에서 동작할 수 있도록 DID를 적용하는 것이 논의되었다. DID에서는 URN의 이름 공간(namespace) 컴포넌트를 
+DID 메소드를 규정하는데 사용하고 DID 메소드 규격은 메소드 별 식별자(method-specific identifier)의 형식을 정의한다. 
+
+![image](uuid.png)
+
 
 W3에서 자원에 대한 식별자로 URN(Unified Resource Name)과 URL(Unified Resource Locator) 
 
@@ -21,7 +26,7 @@ DID는 W3C의 URN(Unified Resource Name: 영구적인 자원 이름)의 규격�
 DID는 사용자를 중심으로 개인 신원정보를 생성, 사용, 삭제 등 개인 신원정보를 관리할 수 있는 기반을 제공하여 '나'를 구별하고 '내'가 '나'임을 증명할 수 있는
 방법을 제공한다. 
 
-DID
+
 
 
 
