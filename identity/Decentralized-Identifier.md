@@ -12,17 +12,42 @@
 
 W3C DID WG의 정의에 따르면 탈중앙형 식별자는 분산원장 기술(distributed ledger technolology) 또는 다른 형태의 탈중앙형 네트워크에 등록되기 때문에 
 중앙의 등록기관이 필요 없는 글로벌하게 유일한 식별자(globally unique identifier)로 정의한다.
-
-중앙의 등록기관을 요구하지 않는 글로벌 식별자에 대한 요구가 처음이 아니라 2016 년에 W3C의 URN(Unified Resource Name) 규격의 기본 패턴을 따라 
-복수의 블록체인에서 동작할 수 있도록 DID를 적용하는 것이 논의되었다. DID에서는 URN의 이름 공간(namespace) 컴포넌트를 
-DID 메소드를 규정하는데 사용하고 DID 메소드 규격은 메소드 별 식별자(method-specific identifier)의 형식을 정의한다. 
-
-
-W3에서 자원에 대한 식별자로 URN(Unified Resource Name)과 URL(Unified Resource Locator) 
-
 DID는 W3C의 URN(Unified Resource Name: 영구적인 자원 이름)의 규격과 동일한 기본 패턴을 바탕으로 여러 블록체인에 적용하기 위해 표준화가 진행되었다.
 DID는 사용자를 중심으로 개인 신원정보를 생성, 사용, 삭제 등 개인 신원정보를 관리할 수 있는 기반을 제공하여 '나'를 구별하고 '내'가 '나'임을 증명할 수 있는
 방법을 제공한다. 
+
+중앙의 등록기관을 요구하지 않는 글로벌 식별자에 대한 요구가 처음이 아니라 2016 년에 W3C의 URN(Unified Resource Name) 규격의 기본 패턴을 따라 
+복수의 블록체인에서 동작할 수 있도록 DID를 적용하는 것이 논의되었다. DID에서는 URN의 이름 공간(namespace) 컴포넌트를 
+DID 메소드를 규정하는데 사용하고 DID 메소드 규격은 메소드 별 식별자(method-specific identifier)의 형식을 정의한다.
+다음은 uuid를 표현하는 URN을 표현하고 있다(출처:w3c). 
+
+![image](./uuid_fornat.png)
+
+다음은 DID를 표현하고 있다.(출처:w3c)
+
+![image](./did_format.png)
+
+디저털 공간에서 모든 개체(entity)는 필요한 수 만큼 (관련 DID 문서와 서비스 종단점 과 함께) DID를 가질 수 있다. 이는 신원(identity), 정체성(persona), 문맥(context)을 분리하려는 개채의 요구를 수용하기 위한 것이다.  
+
+## DID 문서 (DID documents)
+
+DID는 DID 문서를 가리킨다. w3c는 DID 문서를 "DID 주체(subject)가 자신을 인증하고 DID와의 연관성을 입증하는데 사용할 수 있는 공개키 및 생체 인식과 같은
+메커니즘을 포함한 DID 주체를 설명하는 데이터 집합" 으로 정의한다. DID 문서는 주체를 설명하는 속성들 또는 주장(claim)들을 포함하기도 한다. 
+일반적으로 이 문서는 JSON-LD를 사용하여 표현된 그래프 기반 자료 구조이나 호환 가능한 다른 그래프 기반 데이터 형식을 사용하여 표할될 수 있다.   
+
+## DID 방법 (DID method)
+
+
+DID 방법은 특정 분산 원장 또는 네트워크에서 DID와 관련 DID 문서를 생성, 읽기, 갱신, 비활성화하는 메커니즘이다. 
+특별한 탈중앙형 식별자에 DID와 DID 문서의 모든 기능을 가능하게 하기 위해서 DID 방법 명세(specification)은 클라이언트에서 실행되는 
+CRUD (Create, Read, Update and Deactive) 작업의 동작 방법을 정의해야 한다.   
+
+DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관리시스템을 위해서도 개발될 수 있다. 모든 유형의 신원관리시스템은 중앙집중형, 연합형,
+탈중앙형 식별자 도메인 간 상호 운용성 브리지를 만들어서 DID 지원기능을 추가할 수 있다. 
+
+## 요점
+
+DID와 DID 문서는 탈중앙화된 신원의 기반이나 주체를 기술하는 첫 단계이다. 
 
 
 
