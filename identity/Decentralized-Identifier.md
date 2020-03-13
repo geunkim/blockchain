@@ -67,10 +67,10 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 ## 주요 컴포넌트
 
  * holder(보유자): 하나 이상의 검증가능 자격증명데이터(verifiable credentials)을 소유하고 그것으로 부터 표현(presentation)을 생성하는 개체(entity) 
- - 에: 학생, 고객, 직원
+     + 에: 학생, 고객, 직원
   
- * issuer(발행자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity)
- - 예: 기업, 정부 또는 비영리 단체
+ * issuer(발행자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity) 
+     + 예: 기업, 정부 또는 비영리 단체
  
  * Subject(주체): 하나 이상의 검증가능 자격즘명데이터를 주장하는 개체(entity)로 검증가능 많은 경우 자격증명데이터의 보유자가 주체이나 항상 그렇지 않음 
  
