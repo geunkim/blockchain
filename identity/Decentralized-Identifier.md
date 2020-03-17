@@ -47,7 +47,7 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 탈중앙형 식별자 도메인 간 상호 운용성 브리지를 만들어서 DID 지원기능을 추가할 수 있다. 
 
 
-## Related Terminologies (관련 용어)
+## Related Terminologies (관련 용어) (defined by W3C Verifiable Credentials Data Model)
 
 * credentials (자격증명데이터): 사실 또는 자격을 증명할 수 있는 데이터
    + 예: 운전 면허증, 의사 신분증, 졸업장, 사원증 등
@@ -62,22 +62,27 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 검증가능 자격증명데이터로 부터 파생된 데이터
     + 암호 검증 프로세스 후 데이터의 소유권을 신뢰할 수 있도록 인코딩하여 변조를 감지할 수 있는 표현
     + verifiable presentation의 형태에 오리지널 검증가능 자격증명데이터로 부터 합성이 되었으나 원 검증가능 자격증명데이터는
-    포함하지 않는 데이터가 포함될 수 있다. (영-지식 증명)   
+    포함하지 않는 데이터가 포함될 수 있다. (영-지식 증명)  
+   
+* entity(엔티티): 검증가는 자격증명 데이터의 생태게(?)에서 하나 이상의 역할을 수행하는 사람, 조직, 디바이스와 같이 구별이 되고 독립적으로 존재하는 것(thing)
+
+* digital signature(전자 서명): 디지털 메시지의 진위를 증명하기 위한 수학적인 절차 
+
+
 
 ## 주요 컴포넌트
 
- * holder(보유자): 하나 이상의 검증가능 자격증명데이터(verifiable credentials)을 소유하고 그것으로 부터 표현(presentation)을 생성하는 개체(entity) 
+* holder(보유자): 하나 이상의 검증가능 자격증명데이터(verifiable credentials)을 소유하고 그것으로 부터 표현(presentation)을 생성하는 개체(entity) 
      + 에: 학생, 고객, 직원
   
- * issuer(발행자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity) 
+* issuer(발자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity) 
      + 예: 기업, 정부 또는 비영리 단체
  
- * Subject(주체): 하나 이상의 검증가능 자격즘명데이터를 주장하는 개체(entity)로 검증가능 많은 경우 자격증명데이터의 보유자가 주체이나 항상 그렇지 않음 
+* Subject(주체): 하나 이상의 검증가능 자격즘명데이터를 주장하는 개체(entity)로 검증가능 많은 경우 자격증명데이터의 보유자가 주체이나 항상 그렇지 않음 
  
- * Verifier(검증자): 보유자가 요청한 특정 특성을 가진 검증가능 자격증명데이터를 보유하고 있음을 증명하는 검증가능 표현(presentation)을 요청 및 수신하는 개체(entity)
+* Verifier(검증자): 보유자가 요청한 특정 특성을 가진 검증가능 자격증명데이터를 보유하고 있음을 증명하는 검증가능 표현(presentation)을 요청 및 수신하는 개체(entity)
  
- * Verifiable data registry(검증 데이터 저장소): 식별자, 키, 관련 데이터의 생성 및 검증을 
-중제하는 시스템
+* Verifiable data registry(검증 데이터 저장소): 식별자, 키, 관련 데이터의 생성 및 검증을 중재하는 시스템
 
 
 ## 개인 정보 (Personal Information)
@@ -102,8 +107,24 @@ Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적
 ![image](./basic_claim_example.png)
 
 또한 개별적인 주장은 주체에 대한 정보의 그래프 표현을 위해 합칠 수 있다. 이 그래프는 주체와 다른 주체 또는 데이터와의 관계로 구성된 정보의 네트워크이다.
-다음 예는 
-다음은 
+다음은 앞의 예에 Pat가 Sam을 알고 있고 Sam의 직업이 교수라는 것을 나타내는 그래프이다. 
+
+![image](./claims_network.png)
+
+{Q} "이러한 주장들이 믿을 수 있기 위해서 더 많은 정보들이 그래프에 추가될 것이 기대된다" 고 하는데 이 그래프를 구성하는 주체는? 
+
+## Credentials (자격증명데이터)
+ 
+자격증명데이터는 같은 엔티티에 의해 생성된 주장들의 집합이다. 자격증명데이터는 식별자(identifer)와  
+발급자(issuer), 만료 날짜와 시간, 대표 이미지, 검증 목적으로 사용되는 공개키, 해지 메커니즘 등 자격증명데이터의 속성을 기술하는 메타데이터를 포함한다. 
+
+
+
+
+
+
+
+
 
 
 
@@ -117,10 +138,12 @@ Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적
 ## Standards related to DID
 
 * W3 Draft CG Reprt: [A Primer for Decentralized Identifiers](https://w3c-ccg.github.io/did-primer/) (unofficial draft)
-* W3C Working Draft: [Decentralized Identitifers (DIDs) v1.0](https://w3c.github.io/did-core/)
+* W3C Working Draft: [Decentralized Identitifers (DIDs) v1.0 Core Data Model and Syntaxes](https://w3c.github.io/did-core/)
 * W3C Recommendation: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential) 19 Nov. 2019.
+* W3C WOrking Draft: [Use Cases and Requirements for Decentralized Identifiers](https://www.w3.org/TR/did-use-cases/) 30 January 2020
 
 ## References
 
+* [W3C DIDs 한글 번역 문서](https://ssimeetupkorea.github.io/did-core/) 
 * [Decentralized Identifiers: the easy guide](V)
 * [Decentralized Identifiers: Personal Information and Claims, the easy guide](https://medium.com/metadium/decentralized-identifiers-personal-information-and-claims-the-easy-guide-ee58b5427dd2)
