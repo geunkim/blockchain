@@ -89,7 +89,22 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 
 ## 주장 (Claims)
 
-주장(claim)은 주체에 관한 진술이다. 주장은 다음과 같이 주체(subject), 속성(property), 값(value)의 관계를 사용하여 표현한다. 
+주장(claim)은 주체(subject)에 관한 서술(statement)이다.
+기본적으로 주장은 다음과 같이 주체(subject), 속성(property), 값(value)의 관계로 표현한다. 
+
+![image](./basic_claim_structure.png)
+
+<주장의 기본 구조: source W3c Verifiable Credentials Data Model 1.0>
+
+이 모델은 주체에 대한 다앙한 서술을 하는데 사용할 수 있다. 한 예로 특정인이 특정 대학을 졸업하였는지를 표현할 수 있다. 다음 예는
+Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적인 주장이다. 
+
+![image](./basic_claim_example.png)
+
+또한 개별적인 주장은 주체에 대한 정보의 그래프 표현을 위해 합칠 수 있다. 이 그래프는 주체와 다른 주체 또는 데이터와의 관계로 구성된 정보의 네트워크이다.
+다음 예는 
+다음은 
+
 
 
 * public DID vs private DID
@@ -101,12 +116,11 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 
 ## Standards related to DID
 
-* W3C: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential) - W3C Recommendation 19 Nov. 2019.
 * W3 Draft CG Reprt: [A Primer for Decentralized Identifiers](https://w3c-ccg.github.io/did-primer/) (unofficial draft)
 * W3C Working Draft: [Decentralized Identitifers (DIDs) v1.0](https://w3c.github.io/did-core/)
-* W3C Recommendation: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential)
+* W3C Recommendation: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential) 19 Nov. 2019.
 
 ## References
 
-* [Decentralized Identifiers: the easy guide](https://medium.com/metadium/decentralized-identifiers-the-easy-guide-fb96429e8b24)
+* [Decentralized Identifiers: the easy guide](V)
 * [Decentralized Identifiers: Personal Information and Claims, the easy guide](https://medium.com/metadium/decentralized-identifiers-personal-information-and-claims-the-easy-guide-ee58b5427dd2)
