@@ -118,18 +118,26 @@ Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적
 자격증명데이터는 같은 엔티티에 의해 생성된 주장들의 집합이다. 자격증명데이터는 식별자(identifer)와  
 발급자(issuer), 만료 날짜와 시간, 대표 이미지, 검증 목적으로 사용되는 공개키, 해지 메커니즘 등 자격증명데이터의 속성을 기술하는 메타데이터를 포함할 수 있다. 
 메타데이터는 발급자가 서명한 것 일 수 있다. 검증가능한 자격증명데이터는 변조을 감지할 수 있는 주장(claim)들과 발급자를 암호화 방법으로 증명하는데 사용되는 
-메타데이터를 포함한다. 
+메타데이터를 포함한다.
+
+디지털 직원 신분증, 디지털 출생 증명서, 디지털 교육 증명서가 검증가능한 자격증명데이터의 예이다. 
+자격증명 데이터 식별자는 자격증염데이터의 특정한 인스턴스를 식별하는데 사용된다. 식별자들은 상관 관계를 설졍하는데 사용할 수도 있다. 상관 관계를 최소화려는 
+보유자는 자격증명 식별자를 밝히지 않고 선택적 공개 체계를 사용하는 것이 바람직하다. 
+
+![image](./verifiable_credential.png) 
+(source: w3c)
+
+앞의 그림은 검증가능한 자격증명데이터의 기본 컴포넌트로 주장들이 어떻게 정보 그래프로 구성되고 정보 그래프가 검증가능한 자격증명데이터로 어떻게 구성되는지에
+대한 상세한 내용을 추상화하였다.  
+
+다음은 최소한 두 개의 정보 그래프로 구성한 검증가능한 자격증명에 대해 상세하게 설명하고 있다. 첫 그래프는 검증가능한 메타데이터와 주장을 포함한 검증가능한 
+자격증명을 포현한다. 두번쩨 그래프는 일반적으로 디지털 서명인 디저털 증명(digital proof)를 나타낸다. 
+
+![image](./info_graph_verifiable_credential.png)
+
+자격증명데이터 그래프를 살펴보면 
 
 
-
-
-
-
-
-
-
-
-* public DID vs private DID
 
 ## Ecosystem (생태계)
 
@@ -141,7 +149,7 @@ Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적
 * W3 Draft CG Reprt: [A Primer for Decentralized Identifiers](https://w3c-ccg.github.io/did-primer/) (unofficial draft)
 * W3C Working Draft: [Decentralized Identitifers (DIDs) v1.0 Core Data Model and Syntaxes](https://w3c.github.io/did-core/)
 * W3C Recommendation: [Verifiable Credentials Data Model 1.0 Expressing verifiable information on the Web](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential) 19 Nov. 2019.
-* W3C WOrking Draft: [Use Cases and Requirements for Decentralized Identifiers](https://www.w3.org/TR/did-use-cases/) 30 January 2020
+* W3C Working Draft: [Use Cases and Requirements for Decentralized Identifiers](https://www.w3.org/TR/did-use-cases/) 30 January 2020
 
 ## References
 
