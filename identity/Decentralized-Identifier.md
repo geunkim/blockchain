@@ -131,8 +131,8 @@ nonTransferable property는 verifiable credential이 credentialSubject에 의해
 캡슐화되어야 함을 나타낸다. 즉 nonTransferable property가 true이면 verifiable credential은 credentialSubject에 의해 발행된 증명을 가지고 있는
 veerifiable presentation에 의해 캡슐화된다. 
 
-nonTransferable 속성 verifiable credential을 포함하는 verifiable presentation의 증명 작성자가 
-캡슐화되어야 함을 나타낸다. credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
+nonTransferable 속성이 포함된 verifiable credential를 포함하는 verifiable presentation의 증명 작성자가
+credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
 
 
 
