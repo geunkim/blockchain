@@ -70,12 +70,14 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 
 
 
+
+
 ## 주요 컴포넌트
 
 * holder(보유자): 하나 이상의 검증가능 자격증명데이터(verifiable credentials)을 소유하고 그것으로 부터 표현(presentation)을 생성하는 개체(entity) 
      + 에: 학생, 고객, 직원
   
-* issuer(발자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity) 
+* issuer(발행자): 검증가능 자격증명데이터(verifiable credentials)을 생성하여 특정 주체와 연결하여 보유자(holder)에게 전송하는 개체(entity) 
      + 예: 기업, 정부 또는 비영리 단체
  
 * Subject(주체): 하나 이상의 검증가능 자격즘명데이터를 주장하는 개체(entity)로 검증가능 많은 경우 자격증명데이터의 보유자가 주체이나 항상 그렇지 않음 
@@ -90,7 +92,6 @@ DID 방법은 중앙 집중형 신원관리시스템 또는 연합된 신원관�
 개인 데이터는 정부에서 발급한 식별자, 배송지 주소, 이름 등을 포함하며 개체(entity)를 결정, 추적 및 상관시키기 위해 쉽게 사용될 수 있다. 
 이 데이터는 프라이버시 위반에 민감하고 취약한다. 개인적으로 식별가징하니 않는 데이터조차도 다수에게 노출될 수 있다. 
 에로 생년월일과 우편번호의 조합은 매우 강력한 상관관계와 익명해제능력을 가질 수 있다. 
-
 
 ## 주장 (Claims)
 
@@ -112,6 +113,29 @@ Pat 가 "Example University의 졸업생"이라는 것을 표현하는 기본적
 ![image](./claims_network.png)
 
 {Q} "이러한 주장들이 믿을 수 있기 위해서 더 많은 정보들이 그래프에 추가될 것이 기대된다" 고 하는데 이 그래프를 구성하는 주체는? 
+
+
+## Credential Subject (자격증명 주체)
+
+보유자가 제시한 검증가능한 자격증명(verifiable credentials)에는 각 credentialSubject의 *id* 속성과 연관된 값은 
+주체(subject)를 검증자(verifier)로 식별할 것으로 예상된다. 또한 보유자가 주체이면 검증자는 자격증명이 보유자와 관련한 공개키 메타데이터를 
+가지고 있으면 검증자는 보유자를 인증할 수 있다.  
+검증자는 verifiable presentation에 포함된 보유자의 전자 서명으로 보유자를 인증할 수 있다. *id*속성은 선택사항이다. 검증자는 주체를 
+유일하게 식별할 수 잇는 검증가능 자격증명(verifiable credential)의 다른 속성을 사용할 수 있다. 
+
+## nonTransferable property (양도불가능한 속성)
+
+credentialSubject만 verifiable presentation에 verifiable credential을 추가할 수 있다면 발행자는 verifiable credential에 
+nonTransferable 속성을 추가할 수 있다.
+nonTransferable property는 verifiable credential이 credentialSubject에 의해 발행된 증명을 가지고 있는 verifiable presentation으로 만
+캡슐화되어야 함을 나타낸다. 즉 nonTransferable property가 true이면 verifiable credential은 credentialSubject에 의해 발행된 증명을 가지고 있는
+veerifiable presentation에 의해 캡슐화된다. 
+
+nonTransferable 속성 verifiable credential을 포함하는 verifiable presentation의 증명 작성자가 
+캡슐화되어야 함을 나타낸다. credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
+
+
+
 
 ## Credentials (자격증명데이터)
  
