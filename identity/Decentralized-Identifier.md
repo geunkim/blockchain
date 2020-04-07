@@ -135,6 +135,10 @@ nonTransferable 속성이 포함된 verifiable credential를 포함하는 verifi
 credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
 
 
+## Subject-Holder Relationships (주체-보유자 관계)
+
+
+
 
 
 ## Credentials (자격증명데이터)
