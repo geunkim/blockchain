@@ -135,8 +135,34 @@ nonTransferable 속성이 포함된 verifiable credential를 포함하는 verifi
 credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
 
 
-## Subject-Holder Relationships (주체-보유자 관계)
+## Subject-Holder Relationships (대상-보유자 관계)
 
+* (case 1) 대상이 보유자인 경우 
+
+* (case 2)자격증명(Credential)이 유일하게 대상을 식별하는 경우
+
+* (case 3) 대상이 검증가능 자격증명(verifiable credential)을 보유자에게 준 경우 
+
+* (case 4) 보유자가 대상을 대신하여 등작하는 경우 
+
+* (casd 5) 대상이  검증가능 자격증명(verifiable credential)을 제 3자에게 준 경우
+
+대상이 검증가능 자격증명을 다른 보유자에게 전달할 때는 대상은 다음과 같은 새로운 검증 가능한 자격 증명을 보유자에게 발급할 수 있다. 
+   + 발행자가 대상이다. 
+   * 대상은 검증 가능 자격증명을 전달받은 보유자이다. 
+   * 주장은 전달되는 속성이 포함딘다. 
+   
+보유자는 두 개의 검증가능 자격증명이 포함된 검증가능 표현(verifiaible presentation0을 생성하여 검증가능 자격증명 원본을 다른 보유자에게 제공했는데 확인할 수 있다.
+
+보유자는 대상이 원 
+
+* (casd 6) 발급자가 보유자의 권한을 부여한 경우
+
+발급자가 보유자가 아닌 대상을 설명하는 자격 증명을 보유자가 보유하도록 권한을 부여하려고 하고 보유자가 대상과 알려진 관계가 없는 경우, 발급자는 보유자와 자신이 관계를 대상의 자격 증명에 추가할 수 있다. 
+
+* (case 7) 보유자가 검증자를 대신하여 행동하거나 대상, 발급자, 검증자와 관계가 없는 경우 
+
+검증가능 자격증명(verifiable credential) 데이터 모델은 이 시나리오 중 하나도 지원하지 않는다. 지원 방법에 대해서 연구가 필요하다.
 
 
 
