@@ -40,7 +40,6 @@ DID와 DID 문서는 탈중앙화된 신원의 기반이나 주체를 기술하�
 
 ## DID 방법 (DID method)
 
-
 DID 방법은 특정 분산 원장 또는 네트워크에서 DID와 관련 DID 문서를 생성, 읽기, 갱신, 비활성화하는 메커니즘이다. 
 특별한 탈중앙형 식별자에 DID와 DID 문서의 모든 기능을 가능하게 하기 위해서 DID 방법 명세(specification)은 클라이언트에서 실행되는 
 CRUD (Create, Read, Update and Deactive) 작업의 동작 방법을 정의해야 한다.   
@@ -137,12 +136,24 @@ Q) verifiable presentation 의 모습
 * 발급자는 취소 가능한 검증가능한 신원정보를 발급할 수 있다.
 * 검증가능한 신원정보와 표현은 하나 이상의 컴퓨터가 판독할 수 있는 데이터 형식으로 직렬화되어야 한다. 
 * 직렬화/역직렬화 절차는 결정적(determinstic), 양방향 및 무손실이어야 한다.
-* 검증가능한 신원정보 또는 표현의 직렬화는 직렬화된 검증가능 신원정보가 상호운용이 가능한 방식으로 처리될 수 있는 것 같이 결정적인 방식으로 정의된 
+* 검증가능한 신원정보 또는 표현의 직렬화는 직렬화된 검증가능 신원정보가 상호운용이 가능한 방식으로 처리될 수 있도록 결정적인 방식으로 정의된 
+일반적인 데이터 모델로 변환이 가능해야한다. 
+* 직렬화된 양식은 데이터 또는 콘텐츠의 손실없이 데이터 모델로 부터 생성될 수 있어야 한다. 
+* 데이터 모델과 직렬화는 최소한의 조정으로 확장되어야 한다.
+* 발급자에 의한 취소는 주체, 보유자, 특정 검증가능 신원정보 또는 검증자에 관한 모든 식별정보를 공개하지 않아야 한다. 
+* 발급자는 취소 이유를 공개할 수 있다.
+* 검증가능한 신원정보를 취소한 발급자는 암호화 무결정에 대한 취소(서명키의 손상)와 상태 변경의 취소(예: 운전면허 정지)를 구분해야 한다. 
+* 발급자는 검증가능한 신원정보를 새롭게 하는 서비스를 제공할 수 있다. 
 
+## 디지털 증명 메커니즘 (Digital proof mechanisms)
 
-일반적인 데이터 모델로 변환 가능해야한다. 
+디지털 서명의 일부인 디지털 증명 메커니즘은 검증가능한 신원정보의 보호를 보장하기 위해 필요하다. 
+증명의 구문에 종속적인 증명을 보유하고 검증하는 것(예: 키 보유자를 증명하기 위해 JSON 토큰의 JSON 웹 서명 사용)은 검증가능한 신원정보를 처리하는데 필수적인 부분이다. 
+W3C에서 검증가능 신원정보 데이터 모델을 표준 문서가 작성될 때 다음 세 가지 증명 방법을 사용하여 신원정보를 구현하였다. 
 
-
+   * JSON Web Tokens secured using JSON Web Signatures (
+   * Linked Data Signature (링크된 데이터 서명)
+   * Camenisch-Lysyanskaya Zeor-Knowledge Proofs (영지식 증명)
 
 ## 개인 정보 (Personal Information)
 
@@ -190,7 +201,6 @@ veerifiable presentation에 의해 캡슐화된다.
 
 nonTransferable 속성이 포함된 verifiable credential를 포함하는 verifiable presentation의 증명 작성자가
 credentialSubject가 아니면 verifiable presentation은 유효하지 않다. 
-
 
 ## Subject-Holder Relationships (대상-보유자 관계)
 
@@ -244,7 +254,8 @@ credentialSubject가 아니면 verifiable presentation은 유효하지 않다.
 
 ![image](./info_graph_verifiable_credential.png)
 
-## Ecosystem (생태계)
+## Use case model
+
 
 
 
