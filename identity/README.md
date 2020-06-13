@@ -26,6 +26,9 @@
 
 * [ID2020 Technical Requirements](https://docs.google.com/document/d/1X8wKvPr-xEnF43BK0Bg-qK-woVspQirP27bChEW8Y8Y/edit)
 
+* [Protecting privacy with Math(Collab with the Census](https://youtu.be/pT19VwBAqKA)
+
+
 
 
 
