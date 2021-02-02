@@ -36,8 +36,12 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 
 ## [VC (Verifiable Credentials)](Verifiable_Credentials/README.md)
 
-
 ## Self Sovereign identity (SSI)
+
+## Researches 
+
+* [Blockchain resarch at MMLab](https://mm.aueb.gr/blockchains/)
+* [SOFIE Project](https://www.sofie-iot.eu/)
 
 ## Hyperledger 
 
