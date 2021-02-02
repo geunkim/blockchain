@@ -1,15 +1,14 @@
 # Blockchain
 
-## related papers 
+## Related papers 
 
 * A curated list of papers ordered by number of citations. [Coinresear.ch](https://www.coinresear.ch/papers)  
 
-
-## related video
+## Related video
 
 Bettina Warburg's video on TED. "[How the blockchain will radically transform the economy](https://www.ted.com/talks/bettina_warburg_how_the_blockchain_will_radically_transform_the_economy)"]
 
-## related article
+## Related article
 
 * [Research issues](https://github.com/geunkim/blockchain/tree/master/ResearchIssues/README.md)
 
@@ -20,7 +19,7 @@ Ameer Rosic's article "[What is Blockchain Technology? A Step-by-Step Guide For 
 Electronic Beats's article
 "[A Bignieer's Guide To The Decentralized Internet](https://www.electronicbeats.net/a-beginners-guide-to-the-decentralized-internet/)"
 
-## blockchain applications
+## Blockchain applications
 
 * Daniel Palmer's article: "[7 Cool Decentralized Apps Being Built on Ethereum](https://www.coindesk.com/7-cool-decentralized-apps-built-ethereum)"
 
@@ -34,6 +33,9 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
 * [W3C DID Working Group](https://www.w3.org/2019/did-wg/)
    - [DID Identifer v1.0](https://www.w3.org/TR/did-core/)
    - [Use Cases and Requirements for Decentralized Identifiers](https://w3.org/TR/did-use-cases/)"
+
+## [VC (Verifiable Credentials)](Verifiable_Credentials/README.md)
+
 
 ## Self Sovereign identity (SSI)
 
@@ -52,4 +54,4 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
    - [Blockchain and GDPR](https://www.eublockchainforum.eu/reports/20181016_report_gdpr.pdf)
 
 
-# Results of blockchain research 
+## Results of blockchain research 
