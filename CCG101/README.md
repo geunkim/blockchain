@@ -2,6 +2,7 @@
 
 
 * [Email Archives](https://lists.w3.org/Archives/Public/public-credentials/)
+
 You can find and follow the issues discussed in Credentials 
 
 
