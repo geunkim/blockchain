@@ -58,4 +58,17 @@ Elena Mesropyan's article: "[21 Comapnies Leveraging Blockchain for Identity Man
    - [Blockchain and GDPR](https://www.eublockchainforum.eu/reports/20181016_report_gdpr.pdf)
 
 
+## Web3 - (Open Source Projects)
+
+In this section, I plan to gather links and inofamtion about open source projects related to Web3.
+
+* [Polkadot Community](https://polkadot.network/ecosystem/community/)
+* [Janssen Project](https://gluu.org/janssen-project-linux-foundation/)
+
+
+## Web3 - (Projects or Protocols)
+
+* [LENS Protocol](https://docs.lens.xyz/docs)
+* [Nostr](https://nostr.com/)
+
 ## Results of blockchain research 
