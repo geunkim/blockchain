@@ -70,5 +70,6 @@ In this section, I plan to gather links and inofamtion about open source project
 
 * [LENS Protocol](https://docs.lens.xyz/docs)
 * [Nostr](https://nostr.com/)
+   - [nostr-protocol GitHub Repository](https://github.com/nostr-protocol/nostr)
 
 ## Results of blockchain research 
